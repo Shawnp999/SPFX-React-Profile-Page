@@ -1,0 +1,77 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "uzmto-profile-page-react-client-side-solution",
+    "id": "d8784a44-e4a4-4f3c-8a84-73d5fb3fade4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "uzmto-profile-page-react description"
+      },
+      "longDescription": {
+        "default": "uzmto-profile-page-react description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "uzmto-profile-page-react Feature",
+        "description": "The feature that activates elements of the uzmto-profile-page-react solution.",
+        "id": "63fa5a8d-7400-4fe4-8a1a-887a3de29339",
+        "version": "1.0.0.0"
+      }
+    ],
+
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Directory.ReadWrite.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "APIConnectors.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "APIConnectors.ReadWrite.All"
+      }
+
+
+
+      
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/uzmto-profile-page-react.sppkg"
+  }
+}
+
+

@@ -1,0 +1,101 @@
+.aboutmecont {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    // margin-right: 30px;
+}
+
+
+
+.editIcon {
+  display: flex;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+@font-face {
+    font-family: 'black';
+    src: url(../fonts/Onest-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: 'bold';
+    src: url(../fonts/Onest-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'extrabold';
+    src: url(../fonts/Onest-ExtraBold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'light';
+    src: url(../fonts/Onest-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: 'medium';
+    src: url(../fonts/Onest-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: 'regular';
+    src: url(../fonts/Onest-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'thin';
+    src: url(../fonts/Onest-Thin.ttf);
+  }
+
+.aboutMeContent {
+  font-size: 10px;
+  display: flex;
+  height: 90%;
+}
+
+.labelRow {
+  display: flex;
+  padding: 5px;
+  display: flex;
+  width: 100%;
+  color: #777;
+  font-family: medium;
+  font-size: 14px;
+  height: 10%;
+  // padding-bottom: 10px;
+  align-items: center;
+}
+
+.pencil {
+  background-image: url(../Icons/pencil.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px; 
+  height: 15px;
+  display: inline-block;
+}
+
+.editstyles {
+  width: 100%;
+  height: 100%;
+  box-Sizing: border-box;
+  min-height: 100px;
+  resize: none;
+  border: 2px solid #dbdbdb;
+  padding: 10px;
+  border-radius: 15px;
+  overflow-Wrap: anywhere;
+  min-height: 150px;
+}
+
+.editstyles2 {
+  width: 100%;
+  height: 200px;
+  box-Sizing: border-box;
+  resize: none;
+  border: 2px solid #dbdbdb;
+  padding: 10px;
+  border-radius: 15px;
+}

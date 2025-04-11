@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "uzmto-profile-page-react",
+    "libraryId": "d8784a44-e4a4-4f3c-8a84-73d5fb3fade4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "uzmto-profile-page-react",
+    "solutionShortDescription": "uzmto-profile-page-react description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

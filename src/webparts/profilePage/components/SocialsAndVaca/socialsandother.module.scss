@@ -1,0 +1,406 @@
+.firstBox {
+    // padding-top: 20px;
+    width: 100%;
+  }
+ 
+.colorbox {
+    display: flex;
+    // width: 91%;  
+    color: white;
+    height: 20px;
+    background-color:#3d92cc ;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'medium';
+    padding: 15px;
+    text-wrap: nowrap;
+    /* margin-bottom: 10px;     */
+}
+
+.jobDuration {
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 11px; 
+    font-family: 'medium';
+    text-wrap: pretty;
+}
+
+
+.workTime {
+    font-size: 16px; 
+    justify-content: center;
+    align-items: center; 
+    font-family: 'bold';
+}
+
+.socialIconContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+} 
+
+
+.socialIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.insta {
+    background-image: url(../Icons/icons-insta.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px; 
+    height: 30px;
+    display: inline-block;
+    // background-color: linear-gradient(217deg, #feb000 , #c105e2 , #fc07ca , #fe0a1e ) !important;
+    border-radius: 50%;
+} 
+
+.meta {
+    background-image: url(../Icons/icons-meta.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.twitter {
+    background-image: url(../Icons/icons-twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.linkedin {
+    background-image: url(../Icons/icons-linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px; 
+    height: 30px;
+    display: inline-block;
+}
+
+.telegram {
+    background-image: url(../Icons/icons-telegram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px; 
+    height: 30px;
+    display: inline-block;
+}
+
+.pencil {
+  background-image: url(../Icons/pencil.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px; 
+  height: 15px;
+  display: inline-block;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.instasocials {
+  background: linear-gradient(217deg,#7d15ff,#f400c9,#f7b800,#f2000d),linear-gradient(#f400c9,#7d15ff,#f2000d,#f7b800)!important; 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.greyTelegram {
+  background-image: url(../Icons/grey-telegram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px; 
+  height: 30px;
+  display: inline-block;
+}
+
+.greyMeta {
+  background-image: url(../Icons/grey-meta.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px; 
+  height: 30px;
+  display: inline-block;
+}
+
+.greyLinkedIn {
+  background-image: url(../Icons/grey-linkedin.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px; 
+  height: 30px;
+  display: inline-block;
+}
+
+.greyTwitter {
+  background-image: url(../Icons/grey-twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px; 
+  height: 30px;
+  display: inline-block;
+}
+
+.greyInstagram {
+  background-image: url(../Icons/grey-insta.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px; 
+  height: 30px;
+  display: inline-block;
+}
+
+
+.greencolorbox {
+    background-color:#9abb52 ;
+    justify-content: start;
+    // padding: 15px;
+    border-radius: 15px; 
+    padding: 10px 5px 10px 5px;
+    // padding-left: 30px;
+    // height: 20px;
+    font-size: 12px;
+    font-family: 'regular';
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    min-height: 15px
+  
+  }
+
+
+  .greencolorboxSeat {
+    background-color:#9abb52 ;
+    justify-content: start;
+    // padding: 15px;
+    border-radius: 15px; 
+    padding: 10px 5px 10px 5px;
+    // padding-left: 30px;
+    // height: 20px;
+    font-size: 12px;
+    font-family: 'regular';
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    min-height: 15px;
+    border: none;
+  
+  }
+
+  .greencolorboxSeat:hover {
+
+    background-color: #5e8a00;
+    border: none;
+  }
+
+.labels {
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    color: #777;
+    font-family: medium;
+    font-size: 14px;
+}
+
+.upperinfo {
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    flex: 20%;
+    color: #ffffff;
+    user-select: none;
+  }
+  
+  .lowerinfo {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  .displayName {
+    color: #ffffff;
+    font-size: 16px;
+    justify-content:flex-start;
+    font-family: 'bold';
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .editIcon {
+    display: flex;    
+    font-size: 15px;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .socialEditDialog {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputbox {
+    display: flex;
+  }
+
+  .errorbox {
+    display: flex;
+  }
+
+  .linkStyle {
+    display: flex;
+    color: darkgray;
+    font-size: 15px;
+  }
+
+  .inputStyle{
+    display: flex;
+    color: black;
+    font-size: 15px;
+    border: 0px ;
+    outline: none;
+    display: flex;
+    width: 100%;
+    padding-left: 4px;
+  }
+
+  .socialInputContainer {
+    display: flex;
+    border: gray 2px solid;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .coloumnbox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: 10px;
+  }
+
+  .firsthalf {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    padding: 3px;
+  }
+
+  .sociallabels {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+  }
+
+  .dialoginput {
+    display: flex;
+    border: 2px solid gray;
+    padding: 5px;
+    width: 300px;
+    border-radius: 4px;
+
+  }
+  
+  .addskills {
+    display: flex;
+
+  }
+
+  .socialslabel {
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .socialEditRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .greenbox {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  
+  }
+  
+  .bluebox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @font-face {
+    font-family: 'black';
+    src: url(../fonts/Onest-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: 'bold';
+    src: url(../fonts/Onest-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'extrabold';
+    src: url(../fonts/Onest-ExtraBold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'light';
+    src: url(../fonts/Onest-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: 'medium';
+    src: url(../fonts/Onest-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: 'regular';
+    src: url(../fonts/Onest-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'thin';
+    src: url(../fonts/Onest-Thin.ttf);
+  }
+
+.addSocialsBox {
+  color: #093a69;
+  display: flex;
+  font-family: medium;
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+
+.my-custom-dialog .main-84 {
+  width: 500px; 
+  height: 500px ;
+}
+
+.main-84 {
+  width: 500px !important;
+  height: 500px !important;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+}
+

@@ -1,0 +1,168 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.profilePage {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.mainCont {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.labelRow {
+  display: flex;
+  padding: 5px;
+  color: #777;
+  font-family: medium;
+  font-size: 14px;
+}
+
+.labelRow2 {
+  display: flex;
+  margin-left: 10px;
+  color: #777;
+  font-family: medium;
+  font-size: 14px;
+}
+
+.row1{
+  display:flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+.userInfoCont {
+  display: flex;
+}
+
+.seventy {
+  width: 75%;
+  display: flex;
+  padding-right: 70px
+}
+
+
+.labelRow3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  color: #777;
+  font-family: medium;
+  font-size: 14px;
+}
+
+.thirty {
+  width: 25%;
+  // margin-left: 30px;
+  display: flex;
+}
+
+.thirty1 {
+  width: 30%;
+  display: flex;
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  
+  p {
+      color: red;
+      font-size: 18px;
+      margin-bottom: 20px;
+  }
+
+  button {
+      padding: 10px 20px;
+      background-color: #0078d4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-bottom: 20px;
+
+      &:hover {
+          background-color: #106ebe;
+      }
+  }
+}
+
+.errorLogs {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 100%;
+  overflow-x: auto;
+
+  h4 {
+      margin-bottom: 10px;
+  }
+
+  pre {
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 10px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+  }
+}
+
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+// .loadingSpinner {
+//   width: 50px; 
+//   height: 50px;
+//   animation: spin 1s linear infinite; 
+// }
+
+// @keyframes spin {
+//   0% { transform: rotate(0deg); }
+//   100% { transform: rotate(360deg); }
+// }
+
+
+

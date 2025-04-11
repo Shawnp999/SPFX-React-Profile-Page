@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "profile-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/profilePage/ProfilePageWebPart.js",
+          "manifest": "./src/webparts/profilePage/ProfilePageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ProfilePageWebPartStrings": "lib/webparts/profilePage/loc/{locale}.js"
+  }
+}

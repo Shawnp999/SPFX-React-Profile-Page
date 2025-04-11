@@ -1,0 +1,280 @@
+.imgphoto {
+    height: 260px;
+    border-radius: 15px;
+    overflow: hidden;
+    object-Fit: cover;
+    object-Position: 40%
+  }
+  
+  .cell {
+    box-sizing: border-box;    
+    // padding: 10px; 
+    width: 100%;
+    // margin-right: 30px;
+  }
+  
+  .userContainer {
+    display: flex;
+    // border: 2px solid #e0e0e0;
+    // border-radius: 13px;
+    // box-shadow: 0 0 5px rgba(169, 169, 169, 0.5);
+    // padding: 2px;
+    // padding-left: 10px;
+    flex-direction: column;
+    // width: 100%;
+  }
+  
+  .photoContainer {
+    width: 25%;
+    // padding: 10px;
+    // justify-content: center;
+    //align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    // padding-left: 10px;
+  }
+  
+  .userInfoContainer {
+    width: 80%;
+   //box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    padding-left: 50px;
+    // padding-top: 10px;
+
+  }
+  
+  .displayName {
+    color: #093a69;
+    font-size: 16px;
+    justify-content:flex-start;
+    font-family: 'bold';
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+  }
+  
+  .userInfoCnt {
+    // width: 100%;
+    border: 2px #e0e0e0 solid;
+    border-radius: 13px;
+    color: #093a69;
+    //padding: 7px 10px 7px 10px;
+    padding:8px 10px 8px 15px;
+    margin-bottom: 10px;
+    font-family: 'medium';
+    font-size: 12px;
+    //padding: 7px 7px 5px 15px;
+  }
+  
+  .department {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .managerLetters {
+    min-height: 25px;
+    min-width: 25px;
+    font-size: 9px;
+    border-radius: 50%; 
+    background-color: #acbdce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'medium';
+    color: white;
+    text-decoration: none;
+  }
+  
+//   .socialIconContainer {
+//     display: flex;
+//     justify-content: flex-end;
+//     margin-top: 10px ;
+//   }
+  
+//   .socialIconsLeft {
+//     justify-content: flex-start;
+//   }
+  
+//   .socialIconsRight {
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
+//   }
+  
+//   .meta {
+//       background-image: url(../Icons/grey-meta.svg);
+//       background-repeat: no-repeat;
+//       background-position: center;
+//       width: 25px; 
+//       height: 25px;
+//       display: inline-block;
+//       margin-left: 3px;
+//   }
+  
+//   .telegram {
+//     background-image: url(../Icons/grey-telegram.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     width: 25px; 
+//     height: 25px;
+//     display: inline-block;
+//     margin-left: 3px;
+//   }
+    
+//   .instagram {
+//     background-image: url(../Icons/grey-insta.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     width: 25px; 
+//     height: 25px;
+//     display: inline-block;
+//     margin-left: 3px;
+//   }
+    
+//   .LinkedIn {
+//     background-image: url(../Icons/grey-linkedin.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     width: 25px; 
+//     height: 25px;
+//     display: inline-block;
+//     margin-left: 3px;
+//   }
+    
+//   .twitter {
+//     background-image: url(../Icons/grey-twitter.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     width: 25px; 
+//     height: 25px;
+//     display: inline-block;
+//     margin-left: 3px;
+//   }
+  
+  .spanclass {
+    color: #b1b2c4; 
+    font-family: 'medium'
+  }
+  
+  .jobTitle {
+    color: #b1b1b1;
+    font-size: 13px;
+  }
+  
+  @font-face {
+    font-family: 'black';
+    src: url(../fonts/Onest-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: 'bold';
+    src: url(../fonts/Onest-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'extrabold';
+    src: url(../fonts/Onest-ExtraBold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'light';
+    src: url(../fonts/Onest-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: 'medium';
+    src: url(../fonts/Onest-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: 'regular';
+    src: url(../fonts/Onest-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'thin';
+    src: url(../fonts/Onest-Thin.ttf);
+  }
+
+.row {
+  display: flex;
+}
+
+.twentyfiveper {
+  display: flex;
+  width: 28%;
+}
+
+.seventyfiveper {
+  display: flex;
+  width: 70%;
+}
+
+.upperinfo {
+  display: flex;
+  // height: 20%;
+  flex-direction: column;
+}
+
+.withGroupEmail {
+  display: flex;
+  color: #acbdce;
+  font-size: 12px;
+  font-family: 'medium';
+  display: inline;
+}
+
+.lowerinfo {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  // padding-right: 10px;
+  width: 100%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip::before {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 1px #b2b4b3;
+  color: #b2b4b3;
+  content: attr(data-tooltip);
+  font-family: medium;
+  font-size: 13px;
+  left: -100px;
+  min-width: 200px;
+  padding: 12px;
+  position: absolute;
+  text-align: center;
+  top: -20px;
+  transform: translateY(-100%);
+  visibility: hidden;
+  z-index: 1;
+}
+
+.pencil {
+  background-image: url(../Icons/pencil.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px; 
+  height: 15px;
+  display: inline-block;
+}
+
+.tooltipVisible::before {
+  visibility: visible;
+}
+
+.tooltip:hover::before {
+  visibility: visible;
+}
+

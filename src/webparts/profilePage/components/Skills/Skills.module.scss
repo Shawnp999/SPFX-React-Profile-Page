@@ -1,0 +1,167 @@
+.skillsbox {
+    display: flex;
+    border: #e0e0e0 solid 2px;
+    color: #424242;
+    font-size: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 35px;
+    // width: 100%;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-family: 'bold';
+    // overflow: hidden;
+    padding-right: 30px;
+
+  }
+  
+
+
+  .widthRender {
+  display: flex;
+  word-break: break-word;
+  padding: 5px 5px 5px 0px;
+
+  }
+
+@font-face {
+  font-family: 'black';
+  src: url(../fonts/Onest-Black.ttf);
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url(../fonts/Onest-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'extrabold';
+  src: url(../fonts/Onest-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'light';
+  src: url(../fonts/Onest-Light.ttf);
+}
+
+@font-face {
+  font-family: 'medium';
+  src: url(../fonts/Onest-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url(../fonts/Onest-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'thin';
+  src: url(../fonts/Onest-Thin.ttf);
+}
+
+.defaultSkillsCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.editableSkillsCont{
+  display: flex;
+  flex-direction: column;
+}
+
+.editSkillsButtons {
+  display: flex;
+  cursor: pointer;
+}
+
+.addSkillButton {
+  display: flex;
+  cursor: pointer;
+}
+
+.removeSkillButton{
+  display: flex;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.skillscont {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.pencil {
+  background-image: url(../Icons/pencil.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px; 
+  height: 15px;
+  display: inline-block;
+}
+
+.addskillsbox{
+  color: #093a69;
+  display: flex;
+  font-family: medium;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.maxWidth{
+  display: flex;
+  padding: 5px 0 5px 0;
+  word-break: break-word;
+  max-width: 195px;
+}
+
+
+
+.skillsContent {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.editIcon {
+  display: flex;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.labelRow {
+  display: flex;
+  padding: 5px;
+  display: flex;
+  width: 100%;
+  color: #777;
+  font-family: medium;
+  font-size: 14px;
+  // padding-bottom: 10px;
+  align-items: center;
+}
+
+.skillsboxdialog {
+  display: flex;
+  border: #e0e0e0 solid 2px;
+  color: #424242;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 35px;
+  // width: 100%;
+  border-radius: 13px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  font-family: 'bold';
+  overflow: hidden;
+  max-width: 230px;
+  min-width: 230px;
+}
+
+.errormsg {
+  display: flex;
+  color: red;
+}

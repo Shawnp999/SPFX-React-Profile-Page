@@ -1,0 +1,170 @@
+// .thanksCont {
+//     display: flex;
+//     padding-top: 10px;
+//     // flex-direction: column;
+//     padding-right: 10px;
+//     padding-left: 10px;
+//     width: 100%;
+// }
+
+.bottomleftconttitle {
+    border-bottom: #dbdbdb  solid 2px;
+    display: flex;
+    width: 94%;
+    // height: 11%;
+    margin-bottom: 15px;
+}
+
+.fiftypercellleft {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+
+.bottomtextbox {
+    border: #dbdbdb solid 2px;
+    display: flex;
+    border-radius: 20px;
+    width: 95%;
+    height: 100%;
+    min-height: 150px;
+    margin-right: 5%;
+    padding: 10px;
+    outline: none;
+}
+
+
+.greenbutton {
+    border: 2px solid #9abb52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 75%;
+    border-radius: 12px;
+    color: #9abb52;
+    font-family: 'medium';
+    font-size: 14px;
+    min-height: 35px;
+    max-height: 35px;
+    background-color: white;
+    margin-top: 12px;
+}
+
+
+.fiftypercellright {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+
+.orangeboxes{
+    border: solid 2px #fb791e;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; 
+    height: 50px;
+    font-size: 30px;
+    color: #fb791e;
+    font-family: 'bold';
+}
+  
+.orangeBoxesText {
+    color: #b1b1b1;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'medium';
+    margin-top: 10px;
+    max-width: 90px;
+}
+
+@font-face {
+    font-family: 'black';
+    src: url(../fonts/Onest-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: 'bold';
+    src: url(../fonts/Onest-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'extrabold';
+    src: url(../fonts/Onest-ExtraBold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'light';
+    src: url(../fonts/Onest-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: 'medium';
+    src: url(../fonts/Onest-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: 'regular';
+    src: url(../fonts/Onest-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'thin';
+    src: url(../fonts/Onest-Thin.ttf);
+  }
+
+  .editIcon {
+    display: flex;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .thanksCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // margin-right: 30px;
+  }
+  
+  .thanksContent {
+    font-size: 10px;
+    display: flex;
+    height: 90%;
+    flex-direction: row;
+  }
+  
+  .labelRow {
+    display: flex;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    color: #777;
+    font-family: medium;
+    font-size: 14px;
+    height: 10%;
+    // padding-bottom: 10px;
+    align-items: center;
+  }
+  
+  .pencil {
+    background-image: url(../Icons/pencil.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px; 
+    height: 15px;
+    display: inline-block;
+  }
+
+  .editstyles2 {
+    width: 100%;
+    height: 100%;
+    box-Sizing: border-box;
+    resize: none;
+    border: 2px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 15px;
+  }
