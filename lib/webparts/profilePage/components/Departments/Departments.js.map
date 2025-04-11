@@ -1,0 +1,1 @@
+{"version":3,"file":"Departments.js","sourceRoot":"","sources":["../../../../../src/webparts/profilePage/components/Departments/Departments.ts"],"names":[],"mappings":"AAMA;IAKE,oBAAY,cAAsB,EAAE,aAAsB,EAAE,UAAmB;QAC7E,IAAI,CAAC,cAAc,GAAG,cAAc,CAAC;QACrC,IAAI,CAAC,aAAa,GAAG,aAAa,IAAI,cAAc,CAAC;QACrD,IAAI,CAAC,UAAU,GAAG,UAAU,CAAC;IAC/B,CAAC;IACH,iBAAC;AAAD,CAAC,AAVD,IAUC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"DialogStyles.js","sourceRoot":"","sources":["../../../../../src/webparts/profilePage/components/Utilities/DialogStyles.ts"],"names":[],"mappings":";AAEA,IAAM,YAAY,GAAkB;IAClC,IAAI,EAAE,EAAE;IACR,IAAI,EAAE;QACJ;YACE,SAAS;gBACP,GAAC,2BAA2B,IAAG;oBAC7B,QAAQ,EAAE,OAAO;oBACjB,QAAQ,EAAE,OAAO;iBAClB;mBACF;SACF;KACF;CACF,CAAC;AAEF,eAAe,YAAY,CAAC"}
